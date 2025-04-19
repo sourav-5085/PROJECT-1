@@ -1,0 +1,106 @@
+ 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 40px auto;
+    background: #a1a9ad;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #0a267a;
+}
+
+p {
+    color: #777;
+}
+
+.form-container {
+    display: flex;
+    justify-content:  space-between;
+    margin-top: 20px;
+}
+
+.register, .login {
+    width: 45%;
+    padding: 20px;
+}
+.rigis{
+    text-align: right;
+}
+
+.login {
+    background: #0a2845;
+    color: #fff;
+}
+.log{
+    text-align: right;
+}
+h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.ayn{
+    color: #656b70;
+    font-weight: bold;
+}
+.bold {
+    color: #0a2845;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cf2011;
+     
+}
+input[type="user"], input[type="pass"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+     
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.register-btn {
+    background: #a1a9ad;
+    border: 2px solid #2c3e50;
+    color: #0a2845;
+    font-weight: bold;
+}
+
+.login-btn {
+    background: #0a2845 ;
+    color: #fff;
+    border: 1px solid #ed9209;
+     align-items: right;
+}
+.remember {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.forgot {
+    display: block;
+    color: #fff;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-align: right;
+}
